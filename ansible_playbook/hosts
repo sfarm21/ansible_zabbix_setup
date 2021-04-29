@@ -1,0 +1,11 @@
+; zabbixグループの所属ホスト
+[zabbix]
+192.168.100.21
+
+; zabbixグループ変数
+[zabbix:vars]
+ansible_user=vagrant
+ansible_ssh_password=vagrant
+ansible_become=yes
+ansible_become_method=sudo
+ansible_become_password=vagrant

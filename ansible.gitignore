@@ -1,0 +1,8 @@
+# Ansibleでの無視ファイル・フォルダ
+# 実運用時には下記を対象とする。
+
+hosts
+
+host_vars/
+group_vars/
+templates/
